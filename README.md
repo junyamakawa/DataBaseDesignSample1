@@ -64,7 +64,7 @@ Things you may want to cover:
 
 |Colmun|Type|Options|
 |------|----|-------|
-|name|integer|null: false|
+|name|string|null: false|
 
 ### Association
 - has_many :users, through: :groups_users
